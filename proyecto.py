@@ -47,6 +47,10 @@ def dibujar_ruta_en_mapa(ruta, coordenadas):
      # Crea un mapa centrado en las coordenadas de la primera parada
     mapa = folium.Map(location=coordenadas[0], zoom_start=10)
 
+    # Agrega marcadores para cada parada en la ruta
+    for i, coord in enumerate(coordenadas):
+        folium.Marker(coord, popup=f"Parada {i+1}: {ruta[i]}").add_to(mapa)
+
 
     
 
