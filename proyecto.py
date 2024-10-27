@@ -13,3 +13,5 @@ def obtener_ruta(partida, destino, paradas, api_key):
     data = response.json()
 
     if data["status"] == "OK" and "routes" in data and len(data["routes"]) > 0:
+       # (Mejor ruta)
+        route = data["routes"][0]["legs"][0]
