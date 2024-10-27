@@ -70,6 +70,7 @@ ruta, distancia, distancia_valor, data = obtener_ruta(partida, destino, paradas,
 if ruta is not None and distancia is not None:
   print(f"La mejor ruta seleccionada es: {ruta}")
     print(f"La distancia total es de {distancia} km.")
+  costo_combustible_litro = 20  # Costo del litro de combustible
 
 
     
