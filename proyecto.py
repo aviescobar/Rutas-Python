@@ -60,6 +60,7 @@ def dibujar_ruta_en_mapa(ruta, coordenadas):
 
 # Ejemplo de uso del programa:
 partida = input("Ingresa el lugar de partida: ")
+destino = input("Ingresa el lugar de destino: ")
 
 
     
