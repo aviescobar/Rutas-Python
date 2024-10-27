@@ -67,6 +67,8 @@ paradas = input("Ingresa las paradas intermedias separadas por comas (si no hay,
 api_key = "AIzaSyDHCfaevPonfALIk_Jk5M59j76VVEa6zHk"
 ruta, distancia, distancia_valor, data = obtener_ruta(partida, destino, paradas, api_key)
 
+if ruta is not None and distancia is not None:
+
 
     
 
