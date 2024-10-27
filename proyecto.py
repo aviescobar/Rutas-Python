@@ -51,6 +51,8 @@ def dibujar_ruta_en_mapa(ruta, coordenadas):
     for i, coord in enumerate(coordenadas):
         folium.Marker(coord, popup=f"Parada {i+1}: {ruta[i]}").add_to(mapa)
 
+    # Dibuja la línea que conecta las paradas en la ruta
+
 
     
 
