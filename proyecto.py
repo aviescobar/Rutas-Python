@@ -55,6 +55,7 @@ def dibujar_ruta_en_mapa(ruta, coordenadas):
     folium.PolyLine(locations=coordenadas, color='blue').add_to(mapa)
 
     # Guarda el mapa en un archivo HTML
+    mapa.save("ruta_interactiva.html")
 
 
     
