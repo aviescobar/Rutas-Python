@@ -36,4 +36,6 @@ def obtener_coordenadas(data):
     lat, lng = data["routes"][0]["legs"][0]["steps"][-1]["end_location"]["lat"], data["routes"][0]["legs"][0]["steps"][-1]["end_location"]["lng"]
     coordenadas.append((lat, lng))
 
+def calcular_costo_aproximado(distancia, costo_combustible_litro, consumo_litro, costo_peaje, gastos_adicionales): 
+
     return coordenadas
