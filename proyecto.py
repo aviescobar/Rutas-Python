@@ -23,3 +23,4 @@ def obtener_ruta(partida, destino, paradas, api_key):
         distancia_valor = route["distance"]["value"] / 1000  # Distancia en kilómetros
         return ruta, distancia, distancia_valor, data
     else:
+        return None, None, None, None
