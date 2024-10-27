@@ -29,3 +29,4 @@ def obtener_coordenadas(data):
     coordenadas = []
 
     for step in data["routes"][0]["legs"][0]["steps"]:
+    for step in data["routes"][0]["legs"][0]["steps"]:
