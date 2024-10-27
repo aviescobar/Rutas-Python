@@ -35,3 +35,5 @@ def obtener_coordenadas(data):
   # Agregar la coordenada del destino final
     lat, lng = data["routes"][0]["legs"][0]["steps"][-1]["end_location"]["lat"], data["routes"][0]["legs"][0]["steps"][-1]["end_location"]["lng"]
     coordenadas.append((lat, lng))
+
+    return coordenadas
