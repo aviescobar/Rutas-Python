@@ -75,6 +75,16 @@ if ruta is not None and distancia is not None:
     costo_peaje = 150  # Costo total de peajes en el recorrido
     gastos_adicionales = 300  # Otros gastos adicionales
 
+  costo_aproximado = calcular_costo_aproximado(distancia_valor, costo_combustible_litro, consumo_litro, costo_peaje, gastos_adicionales)
+
+    print(f"El costo aproximado del recorrido es de ${costo_aproximado:.2f}.")
+
+    coordenadas = obtener_coordenadas(data)
+
+    dibujar_ruta_en_mapa(ruta, coordenadas)
+else:
+    print("No se encontró una ruta válida para los destinos seleccionados.")
+
 
     
 
