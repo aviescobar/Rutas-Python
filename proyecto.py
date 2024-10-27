@@ -56,6 +56,7 @@ def dibujar_ruta_en_mapa(ruta, coordenadas):
 
     # Guarda el mapa en un archivo HTML
     mapa.save("ruta_interactiva.html")
+    print("Se ha creado un archivo 'ruta_interactiva.html' con el mapa interactivo.")
 
 
     
