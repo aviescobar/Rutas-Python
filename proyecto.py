@@ -43,6 +43,8 @@ def calcular_costo_aproximado(distancia, costo_combustible_litro, consumo_litro,
     costo_total = costo_combustible + costo_peaje + gastos_adicionales
     return costo_total
 
+def dibujar_ruta_en_mapa(ruta, coordenadas):
+
 
     
 
