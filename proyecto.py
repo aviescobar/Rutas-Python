@@ -59,6 +59,7 @@ def dibujar_ruta_en_mapa(ruta, coordenadas):
     print("Se ha creado un archivo 'ruta_interactiva.html' con el mapa interactivo.")
 
 # Ejemplo de uso del programa:
+partida = input("Ingresa el lugar de partida: ")
 
 
     
