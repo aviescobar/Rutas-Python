@@ -26,3 +26,4 @@ def obtener_ruta(partida, destino, paradas, api_key):
         return None, None, None, None
 
 def obtener_coordenadas(data):
+    coordenadas = []
