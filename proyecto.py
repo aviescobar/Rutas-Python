@@ -21,3 +21,4 @@ def obtener_ruta(partida, destino, paradas, api_key):
         ruta = " → ".join(ruta_nombres)
         distancia = route["distance"]["text"]
         distancia_valor = route["distance"]["value"] / 1000  # Distancia en kilómetros
+        return ruta, distancia, distancia_valor, data
