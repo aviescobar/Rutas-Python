@@ -54,6 +54,8 @@ def dibujar_ruta_en_mapa(ruta, coordenadas):
     # Dibuja la línea que conecta las paradas en la ruta
     folium.PolyLine(locations=coordenadas, color='blue').add_to(mapa)
 
+    # Guarda el mapa en un archivo HTML
+
 
     
 
