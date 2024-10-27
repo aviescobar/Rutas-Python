@@ -64,6 +64,7 @@ destino = input("Ingresa el lugar de destino: ")
 paradas = input("Ingresa las paradas intermedias separadas por comas (si no hay, deja en blanco): ")
 
 # clave de API de Google Maps
+api_key = "AIzaSyDHCfaevPonfALIk_Jk5M59j76VVEa6zHk"
 
 
     
