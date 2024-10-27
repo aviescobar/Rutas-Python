@@ -30,3 +30,4 @@ def obtener_coordenadas(data):
 
     for step in data["routes"][0]["legs"][0]["steps"]:
     lat, lng = step["start_location"]["lat"], step["start_location"]["lng"]
+    coordenadas.append((lat, lng))
