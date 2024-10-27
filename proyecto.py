@@ -65,6 +65,7 @@ paradas = input("Ingresa las paradas intermedias separadas por comas (si no hay,
 
 # clave de API de Google Maps
 api_key = "AIzaSyDHCfaevPonfALIk_Jk5M59j76VVEa6zHk"
+ruta, distancia, distancia_valor, data = obtener_ruta(partida, destino, paradas, api_key)
 
 
     
