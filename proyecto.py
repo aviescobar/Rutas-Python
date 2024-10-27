@@ -19,3 +19,4 @@ def obtener_ruta(partida, destino, paradas, api_key):
         # Extrae la información de la ruta y distancia
         ruta_nombres = [step["html_instructions"] for step in route["steps"]]
         ruta = " → ".join(ruta_nombres)
+        distancia = route["distance"]["text"]
