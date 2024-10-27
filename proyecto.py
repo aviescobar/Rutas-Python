@@ -15,3 +15,6 @@ def obtener_ruta(partida, destino, paradas, api_key):
     if data["status"] == "OK" and "routes" in data and len(data["routes"]) > 0:
        # (Mejor ruta)
         route = data["routes"][0]["legs"][0]
+
+        # Extrae la información de la ruta y distancia
+        ruta_nombres = [step["html_instructions"] for step in route["steps"]]
